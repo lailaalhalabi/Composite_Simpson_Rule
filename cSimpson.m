@@ -13,6 +13,8 @@ function I = cSimpson(f,a,b,m)
   I=h/3*(f(a)+f(b)+4*sum(f(x1))+2*sum(f(x2)))
   fprintf('\n')
   
+endfunction
+
   # Example:
   # I = cSimpson(@(x)log(x),1,2,4)
   
@@ -21,5 +23,3 @@ function I = cSimpson(f,a,b,m)
   # I = 3.862920434663129e-01
   # SHORT FORMAT
   # I = 0.38629
-  
-endfunction
