@@ -1,6 +1,6 @@
 function I = cSimpson(f,a,b,m)
   
-  #composite Simpson 1/3 rule.
+  # composite Simpson 1/3 rule.
   
   format long
   h = (b-a)/(2*m);
@@ -12,5 +12,14 @@ function I = cSimpson(f,a,b,m)
   format short
   I=h/3*(f(a)+f(b)+4*sum(f(x1))+2*sum(f(x2)))
   fprintf('\n')
+  
+  # Example:
+  # I = cSimpson(@(x)log(x),1,2,4)
+  
+  # WE GET:
+  # LONG FORMAT
+  # I = 3.862920434663129e-01
+  # SHORT FORMAT
+  # I = 0.38629
   
 endfunction
