@@ -1,2 +1,5 @@
 *.matlab linguistic-detectable = true
-*.m linguistic-detectable = false
+*.java linguistic-detectable = false
+*.js linguistic-detectable = false
+*.html linguistic-detectable = false
+*.xml linguistic-detectable = false
