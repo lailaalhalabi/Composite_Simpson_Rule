@@ -1,4 +1,4 @@
-# Composite_Simpson_Rule
+# Composite Simpson Rule
 
 Computing an approximation of an integral by using the composite simpson rule 1/3 formula.
 
